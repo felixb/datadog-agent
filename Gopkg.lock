@@ -352,7 +352,7 @@
   revision = "5eb25027c9fdd675e1db2bd25af02f5db75027ab"
 
 [[projects]]
-  digest = "1:6804589b70f53b250250ee867da4731f4f40a2e235dec8f73d63548705934bfd"
+  digest = "1:652b604fcce4f12cb6a53823aeacf9e166136d415e0cd55788a14c26503ded88"
   name = "github.com/coreos/etcd"
   packages = [
     "auth/authpb",
@@ -419,7 +419,7 @@
   revision = "0ac367fd6bee057d404c405a298b4b7aedf301ec"
 
 [[projects]]
-  digest = "1:577f411de1bb123e61cdebd59cb51124bb68b9e22b28a869829a30e8e8ce7ec6"
+  digest = "1:a60acfb78bd12ce7b2101f0cc0bca8cd83db6aa60bf1e6ddfd33e83013083ddf"
   name = "github.com/docker/docker"
   packages = [
     "api/types",
@@ -759,7 +759,7 @@
   version = "v1.1.0"
 
 [[projects]]
-  digest = "1:bcdc977248b1df9579a4300d90207ae1597a66e9f4b6417a7df0ffbf2cde9fd6"
+  digest = "1:1ce74de952243566df45871a9e823f3000efac179a8a75af8b1c57c49ae89d97"
   name = "github.com/hashicorp/go-rootcerts"
   packages = ["."]
   pruneopts = ""
@@ -2007,7 +2007,7 @@
   revision = "b3a7cee44a305be0a69e1b9ac03018307287e1b0"
 
 [[projects]]
-  digest = "1:e7b6dda4ec430da9f8136eff81cd76db06418e0823b17c9cacb523633781642c"
+  digest = "1:f27698f7ae7864893ebcfb843e44d821263ac1dcf0ba1d5c2353f9d319a2f28d"
   name = "k8s.io/kubernetes"
   packages = [
     "pkg/kubelet/remote/fake",
