@@ -21,8 +21,8 @@
   version = "v2.2.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:42ef7efc397db983f0f79e454780e19f272ead7f8948fea6d6d418f37ae01560"
+  branch = "db/fix_cpu_compile_error"
+  digest = "1:e7e6b4b121cde548b0c3f5e253cdee4f5e92febde65f9931c4d9bd7ad002b937"
   name = "github.com/DataDog/gohai"
   packages = [
     "cpu",
@@ -34,7 +34,7 @@
     "processes/gops",
   ]
   pruneopts = ""
-  revision = "1f9d6238c0662a3a4318e61a4912c33b20c8ad3b"
+  revision = "ce956ecaf0322b4964dd423840d419708fa54ebd"
 
 [[projects]]
   digest = "1:75f64877bf77b16c450dc23028abfa6d8b38e76ba70b6950cdd888e4f18e7032"
@@ -2007,7 +2007,7 @@
   revision = "b3a7cee44a305be0a69e1b9ac03018307287e1b0"
 
 [[projects]]
-  digest = "1:f27698f7ae7864893ebcfb843e44d821263ac1dcf0ba1d5c2353f9d319a2f28d"
+  digest = "0:"
   name = "k8s.io/kubernetes"
   packages = [
     "pkg/kubelet/remote/fake",

@@ -8,7 +8,7 @@
 
 [[constraint]]
   name = "github.com/DataDog/gohai"
-  branch = "master"
+  branch = "db/fix_cpu_compile_error"
 
 [[constraint]]
   name = "github.com/DataDog/zstd.v1.3"
