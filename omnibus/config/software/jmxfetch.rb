@@ -33,12 +33,12 @@ build do
     delete "jmxfetch.jar"
 
     if ENV['SKIP_SIGN_MAC'] == 'true'
-      hardened_runtime = '-o runtime'
+      hardened_runtime = '-o runtime '
     else
       hardened_runtime = ''
     end
 
-    command "find . -type f | grep -E '(\\.so|\\.dylib|\\.jnilib)' | xargs codesign #{hardened_runtime} --force --timestamp --deep -s 'Developer ID Application: Datadog, Inc. (JKFCB4CN7C)'"
+    command "find . -type f | grep -E '(\\.so|\\.dylib|\\.jnilib)' | xargs codesign #{hardened_runtime}--force --timestamp --deep -s 'Developer ID Application: Datadog, Inc. (JKFCB4CN7C)'"
     command "zip jmxfetch.jar -r ."
   end
 
