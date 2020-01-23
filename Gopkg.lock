@@ -21,8 +21,8 @@
   version = "v2.2.0"
 
 [[projects]]
-  branch = "db/fix-lotsa-cpus"
-  digest = "1:f1f409ab5ad9af257f74333d8b3695fb33b8b97b977c4a835f44af5be33b5090"
+  branch = "master"
+  digest = "1:42ef7efc397db983f0f79e454780e19f272ead7f8948fea6d6d418f37ae01560"
   name = "github.com/DataDog/gohai"
   packages = [
     "cpu",
@@ -34,7 +34,7 @@
     "processes/gops",
   ]
   pruneopts = ""
-  revision = "aa2461514b4da585155a2c1bcfc80668499bfb97"
+  revision = "1f9d6238c0662a3a4318e61a4912c33b20c8ad3b"
 
 [[projects]]
   digest = "1:75f64877bf77b16c450dc23028abfa6d8b38e76ba70b6950cdd888e4f18e7032"

@@ -8,7 +8,7 @@
 
 [[constraint]]
   name = "github.com/DataDog/gohai"
-  branch = "db/fix-lotsa-cpus"
+  branch = "master"
 
 [[constraint]]
   name = "github.com/DataDog/zstd.v1.3"
